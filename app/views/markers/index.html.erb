@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>Marker list</h1>
+    <ul class="list-group list-markers">
+      <% @markers.sort.each do |marker| %>
+        <li class="list-group-item"><a href="/markers/<%= marker.id %>">
+          #<%= marker.number %>: <%= marker.title %>
+        </a></li>
+      <% end %>
+    </ul>
+</div>

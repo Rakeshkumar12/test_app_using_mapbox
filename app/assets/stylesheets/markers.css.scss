@@ -1,0 +1,26 @@
+// Place all the styles related to the Markers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.list-markers a {
+  color: #fff;
+  font-size: 1.1em;
+}
+
+.list-markers li {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.map-container {
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.marker-title {
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
